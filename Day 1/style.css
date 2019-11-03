@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#game-arena {
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    background: url('img/sky.png');
+}
