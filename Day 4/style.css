@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#game-arena {
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    background: url('img/sky.png');
+    position: relative;
+}
+
+#rocket {
+    position: absolute;
+    /* left: 288px;
+    bottom: 10px;
+    width: 40px; */
+}
+
+.btn-panel {
+    position: fixed;
+    height: 50px;
+    /* background: grey; */
+    left: 0;
+    right: 0;
+    bottom: 15px;
+}
+
+.btn-panel .btn {
+    position: absolute;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    background: orange;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50%;
+    top: 0px;
+}
+
+.btn-panel .btn:hover {
+    background: red;
+}
+
+.btn-panel .btn.left {
+    left: 15px;
+}
+.btn-panel .btn.right {
+    right: 15px;
+}
+.btn-panel .btn.fire {
+    top: -50px;
+    right: 15px;
+}
+

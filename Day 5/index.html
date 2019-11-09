@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            Space Shooter
+        </title>
+        <link rel="stylesheet" href="lib/fontawesome-free-5.11.2-web/css/all.min.css"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div id="game-arena">
+
+            <!-- ROCKET -->
+            <img id="rocket" src="img/rocket.png" />
+
+            <!-- BULLET -->
+            <span id="bullet"></span>
+        </div>
+
+        <div class="btn-panel">
+            <i class="fas fa-chevron-left btn left" onclick="moveRocketLeft()"></i>
+            <i class="fas fa-chevron-right btn right" onclick="moveRocketRight()"></i>
+            <i class="far fa-circle btn fire" onclick="fireBullet()"></i>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
